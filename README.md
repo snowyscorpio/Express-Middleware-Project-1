@@ -41,7 +41,6 @@ Express-Middleware-Project-1/
    ```bash
    node app.js
 
-
  The application will be accessible at `http://localhost:3000`.
 
 ### Dependencies:
