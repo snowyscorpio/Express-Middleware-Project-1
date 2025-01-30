@@ -35,7 +35,7 @@ Express-Middleware-Project-1/
 - `/`: Displays a random story.
 
 ### How to Run:
-1. Clone the repository.
+1. Download the project as a ZIP file and extract it.
 2. Install Node.js if not already installed.
 (using `npm install`)
 3. Run the following command to start the server:
