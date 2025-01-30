@@ -5,10 +5,11 @@ This repository contains a solution to an Express.js middleware exercise using N
 ## Exercise: Implement Middleware in an Express Application
 
 ### Requirements:
-1. Create a project folder named `Express-Middleware-Project-1`.
-2. Inside the folder:
-   - Add an `app.js` file to implement the Express server and middleware.
-   - Add a `package.json` file to manage dependencies.
+1. **Create a new project.**
+2. **Modify `app.js` to:**
+   - Display an HTML response for requests to the `/users` route.
+   - Display a different HTML response for all other routes (content is your choice).
+3. **Add two additional middleware functions** that log `Hello1` and `Hello2` for every request.
 
 ### Project Structure:
 ```plaintext
@@ -40,14 +41,12 @@ Express-Middleware-Project-1/
 3. Run the following command to start the server:
    ```bash
    node app.js
-
- The application will be accessible at `http://localhost:3000`.
+   ```
+   The application will be accessible at `http://localhost:3000`.
 
 ### Dependencies:
 - **express** (`^4.21.2`): A fast, minimalist web framework for Node.js.
 - **nodemon**: Automatically restarts the server when file changes are detected.
-
-
 
 Have a great day ♡
 
